@@ -1,0 +1,229 @@
+{
+  "project_type": "restaurant",
+  "style_preset": "glassmorphism",
+  "color": "sunset_orange",
+  "default_bg_type": "bokeh_blur",
+  "default_banner_type": "promo",
+  "descriptions": {
+    "bg_mine": "个人中心页面背景，温暖餐厅柔光虚化光斑，暖橘琥珀色调，舒适用餐氛围",
+    "banner_activity": "外卖优惠活动横幅，暖色系促销氛围，动态斜线构图，左侧留白放价格，食欲感强",
+    "banner_cart_food": "购物车菜品缩略图，食物精致特写，干净明亮简洁，浅景深",
+    "banner_food_thumb": "菜品缩略图卡片，精致美食摄影风格，暖色灯光，丰富的食材纹理细节",
+    "banner_order_food": "订单确认页小图，食物精致呈现，柔光照明，简洁无干扰",
+    "banner_promo": "外卖首页主视觉促销横幅，大尺寸美食图，动态构图，视觉冲击力强，上方留白放标题",
+    "banner_shop_cover": "商家列表封面图，餐厅门面或招牌菜品展示，暖色灯光，诱人食欲",
+    "banner_shop_header": "商家详情页头部大图，餐厅氛围全景，暖色环境光，专业食品摄影品质"
+  },
+  "icons": {
+    "btn_add": {
+      "subject": "a circular plus add button for food ordering, restaurant theme",
+      "shape": "circle",
+      "glow_level": "medium",
+      "material": "soft_silicone"
+    },
+    "btn_add_cart": {
+      "subject": "a circular plus add to cart button, food delivery app",
+      "shape": "circle",
+      "glow_level": "medium",
+      "material": "soft_silicone"
+    },
+    "btn_minus": {
+      "subject": "a circular minus remove button, food ordering interface",
+      "shape": "circle",
+      "glow_level": "medium",
+      "material": "soft_silicone"
+    },
+    "btn_plus": {
+      "subject": "a circular plus increase quantity button, food delivery app",
+      "shape": "circle",
+      "glow_level": "medium",
+      "material": "soft_silicone"
+    },
+    "icon_arrow": {
+      "subject": "a right arrow chevron indicator for list items, minimal clean",
+      "shape": "circle",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_arrow_right": {
+      "subject": "a right pointing arrow chevron for navigation, thin elegant",
+      "shape": "circle",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_avatar": {
+      "subject": "a default user profile avatar placeholder icon, person silhouette",
+      "shape": "circle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_cart_empty": {
+      "subject": "an empty shopping cart icon for empty state illustration, relaxed mood",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "soft_silicone"
+    },
+    "icon_cart_footer": {
+      "subject": "a shopping cart icon with bag, e-commerce food delivery style",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_cat": {
+      "subject": "a food category entrance icon grid item, restaurant cuisine type",
+      "shape": "squircle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_empty": {
+      "subject": "an empty mailbox no data illustration icon for empty state page",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "soft_silicone"
+    },
+    "icon_func": {
+      "subject": "a function menu entry icon, address coupon favorite management",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_location": {
+      "subject": "a location map pin marker icon, delivery address navigation",
+      "shape": "pill",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_order_status": {
+      "subject": "an order status tracking icon, delivery progress indicator",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_search": {
+      "subject": "a search magnifying glass icon, find food restaurants",
+      "shape": "pill",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_setting": {
+      "subject": "a settings gear cog icon, app preferences configuration",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_shop": {
+      "subject": "a restaurant shop storefront icon, food business shop",
+      "shape": "rounded_square",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_shop_small": {
+      "subject": "a small restaurant shop icon for inline display, simple storefront",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_tab": {
+      "subject": "a tab bar navigation icon, bottom navigation bar element",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_home": {
+      "subject": "a home tab bar icon for bottom navigation, house shop storefront",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_menu": {
+      "subject": "a category menu browsing tab bar icon, grid squares layout",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_cart": {
+      "subject": "a shopping cart tab bar icon for bottom navigation, e-commerce style",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_mine": {
+      "subject": "a user profile person my account tab bar icon, human silhouette",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_cat_drink": {
+      "subject": "饮品饮料分类入口图标，奶茶果汁气泡水清凉夏日",
+      "shape": "squircle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_cat_cold": {
+      "subject": "凉菜冷盘分类入口图标，拍黄瓜凉拌清爽开胃",
+      "shape": "squircle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_cat_bbq": {
+      "subject": "烧烤烤肉分类入口图标，烤串烟火气美食",
+      "shape": "squircle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_cat_snack": {
+      "subject": "小吃零食分类入口图标，炸鸡排章鱼烧煎饼果子",
+      "shape": "squircle",
+      "glow_level": "subtle",
+      "material": "frosted_glass"
+    },
+    "icon_pending": {
+      "subject": "待付款订单状态图标，钱包支付时钟等待",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_delivering": {
+      "subject": "配送中外卖图标，骑手电动车快递送达",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_completed": {
+      "subject": "已完成订单图标，对勾打勾确认完成",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_refund": {
+      "subject": "退款售后图标，退款退货客服服务",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_address": {
+      "subject": "收货地址管理图标，定位地图导航标记",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_coupon": {
+      "subject": "优惠券图标，折扣券红包票券促销",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_about": {
+      "subject": "关于我们图标，信息简介品牌餐厅",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    },
+    "icon_feedback": {
+      "subject": "一键反馈图标，在线客服对话消息沟通",
+      "shape": "rounded_square",
+      "glow_level": "none",
+      "material": "frosted_glass"
+    }
+  }
+}
