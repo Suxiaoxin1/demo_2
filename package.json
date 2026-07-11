@@ -1,11 +1,12 @@
 {
   "name": "kemiao-takeout-templ",
   "version": "1.0.0",
+  "type": "module",
   "description": "基于 uni-app + Vue3的外卖点餐小程序模板",
   "scripts": {
     "dev:h5": "uni",
-    "build:h5": "uni build",
-    "build:gh-pages": "uni build && node scripts/copy-build-to-gh-pages.js"
+    "build:h5": "uni build && node scripts/fix-static-paths.js",
+    "postbuild:h5": "node scripts/fix-static-paths.js"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4060620250520001",
