@@ -1,0 +1,36 @@
+name: Build H5
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build H5
+        run: npm run build:h5
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: h5-build
+          path: dist/build/h5
+          retention-days: 7

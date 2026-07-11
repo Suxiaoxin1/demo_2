@@ -44,13 +44,26 @@ npm run build:h5
 
 ## 部署到 GitHub Pages
 
-本项目配置了 GitHub Actions 自动部署：
+本项目配置了 GitHub Actions 自动部署，访问 https://Suxiaoxin1.github.io/demo_2/ 即可查看。
 
-1. 推送到 `main` 分支自动触发构建
-2. 构建 H5 静态文件
-3. 自动发布到 GitHub Pages
+### ⚠️ 首次部署前需要手动启用 GitHub Pages
 
-首次使用需要在 GitHub 仓库 Settings -> Pages 中将 Source 设为 "GitHub Actions"。
+由于 GitHub API 限制，**需要仓库所有者在浏览器中手动启用一次 Pages**：
+
+1. 访问 https://github.com/Suxiaoxin1/demo_2/settings/pages
+2. 在 **Source** 选项中选择 **GitHub Actions**
+3. 点击保存
+
+之后每次推送到 `main` 分支会自动触发构建和部署。
+
+### 工作流说明
+
+- `.github/workflows/build.yml` - 每次 push/PR 都运行，验证构建是否成功，可下载构建产物
+- `.github/workflows/deploy.yml` - 推送到 `main` 分支时运行，构建并自动部署到 GitHub Pages
+
+### 手动触发部署
+
+在 https://github.com/Suxiaoxin1/demo_2/actions/workflows/deploy.yml 页面点击 "Run workflow" 即可手动触发部署。
 
 ## 目录结构
 
