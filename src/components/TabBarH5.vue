@@ -70,7 +70,7 @@ onUnmounted(() => {
 .tab-icon {
   margin-bottom: 4px;
 }
-.tab-text { font-size: 12px; }
+.tab-text { font-size: 14px; }
 .tab-badge {
   position: absolute;
   top: 4px;
