@@ -282,4 +282,20 @@ page {
 /* 点击态 */
 .hover-opacity { opacity: 0.7; }
 .hover-scale { transform: scale(0.95); }
+
+/* ========== 底部 TabBar 字号覆盖（uni-app 内置 uni-tabbar 组件） ========== */
+/* 覆盖 .uni-tabbar__label 默认 10px，让底部导航文字更清晰易读 */
+.uni-tabbar__label {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+/* TabBar 图标略放大，与文字大小协调 */
+.uni-tabbar__icon {
+  width: 28px !important;
+  height: 28px !important;
+}
+/* TabBar 项高调整，避免文字撑开 */
+.uni-tabbar__item {
+  padding: 6px 0 !important;
+}
 </style>
